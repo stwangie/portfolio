@@ -244,6 +244,11 @@ a:hover, a:active, a:focus {
   background-color: transparent;
 }
 
+.navbar-default img {
+  width:15%;
+  margin-left: 10%;
+  margin-top:-3%;
+}
 
 
 /*---------------------------------------
@@ -627,6 +632,9 @@ footer .footer-copyright {
   padding-top: 16px;
 }
 
+footer img{
+  width: 15%;
+}
 
 /*---------------------------------------
    Social icon             
