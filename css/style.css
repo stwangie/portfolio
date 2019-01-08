@@ -288,12 +288,37 @@ a:hover, a:active, a:focus {
 }
 
 #about .col-md-8 {
-  padding-left: 0px;
+  padding-left:10px;
 }
+
+#about .resume{
+  background-color:none;
+  border:2px solid #bbcce8;
+  margin-top:10px;
+  color:#bbcce8;
+  padding: 6px 15px;
+  text-align: center;
+  font-size:18px;
+}
+
+#about .resume:hover{
+  background-color:none;
+  color:#f9e8e6;
+  border:2px solid #f9e8e6;
+}
+
 
 #about .col-md-8 img {
   padding-right: 22px;
   padding-bottom: 22px;
+}
+
+#about .paragraph p{
+  color:#3c3c3c;
+}
+
+#about .fun-facts p{
+  color:#3c3c3c;
 }
 
 #about hr {
