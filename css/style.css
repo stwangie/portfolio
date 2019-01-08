@@ -702,7 +702,7 @@ footer img{
 -----------------------------------------*/
 
 
-@media (max-width: 767px) {
+@media (max-width: 650px) {
 
   h1 {
     font-size: 38px;
@@ -730,7 +730,6 @@ footer img{
   .navbar-brand img{
     margin-top:0px;
     margin-left:0px;
-    margin-right:0px;
   }
 
   #about .col-md-8 img {
