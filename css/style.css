@@ -189,7 +189,7 @@ a:hover, a:active, a:focus {
 }
 
 .navbar-default .navbar-brand {
-  padding-top: 4px;
+  padding-top: 6px;
 }
 
 .navbar-default .navbar-brand .fa {
@@ -730,6 +730,7 @@ footer img{
   .navbar-brand img{
     margin-top:0px;
     margin-left:0px;
+    margin-right:0px;
   }
 
   #about .col-md-8 img {
