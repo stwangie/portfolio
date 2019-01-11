@@ -189,7 +189,7 @@ a:hover, a:active, a:focus {
 }
 
 .navbar-default .navbar-brand {
-  padding-top: 6px;
+  padding-top: 0px;
 }
 
 .navbar-default .navbar-brand .fa {
@@ -309,8 +309,9 @@ a:hover, a:active, a:focus {
 
 
 #about .col-md-8 img {
-  padding-right: 22px;
+  padding-right: 21px;
   padding-bottom: 22px;
+  margin-top:0.4em;
 }
 
 #about .paragraph p{
@@ -319,12 +320,17 @@ a:hover, a:active, a:focus {
 
 #about .fun-facts p{
   color:#3c3c3c;
+  padding-left:1em;
 }
 
 #about hr {
   width: 100px;
   margin-top: 42px;
   margin-bottom: 42px;
+}
+
+#about h3{
+  padding-left:0.5em;
 }
 
 #about ul {
@@ -727,6 +733,10 @@ footer img{
     text-align: center;
   }
 
+  .navbar-header{
+    position:absolute;
+  }
+
   .navbar-brand img{
     margin-top:0px;
     margin-left:0px;
@@ -734,6 +744,14 @@ footer img{
 
   #about .col-md-8 img {
     padding-right: 0px;
+  }
+
+  #about .resume button{
+    background-color:none;
+  }
+
+  #about .resume:hover button{
+  background-color:none;
   }
 
   #blog-single-post .blog-post-title h2 {
