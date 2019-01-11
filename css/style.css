@@ -292,7 +292,7 @@ a:hover, a:active, a:focus {
 }
 
 #about .resume{
-  background-color:none;
+  background-color:white;
   border:2px solid #bbcce8;
   margin-top:10px;
   color:#bbcce8;
@@ -302,7 +302,7 @@ a:hover, a:active, a:focus {
 }
 
 #about .resume:hover{
-  background-color:none;
+  background-color:white;
   color:#99b2db;
   border:2px solid #99b2db;
 }
