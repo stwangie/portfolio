@@ -97,7 +97,7 @@ a:hover, a:active, a:focus {
 #contact,
 #single-project,
 #blog-single-post {
-  padding-top: 80px;
+  padding-top: 60px;
   padding-bottom: 120px;
 }
 
@@ -735,6 +735,10 @@ footer img{
 
   .navbar-header{
     position:absolute;
+  }
+
+  .navbar-collapse{
+    margin-top:5em;
   }
 
   .navbar-brand img{
