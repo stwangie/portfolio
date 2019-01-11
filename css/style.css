@@ -245,11 +245,16 @@ a:hover, a:active, a:focus {
 }
 
 .navbar-default img {
-  width:20%;
-  margin-left: 10%;
-  margin-top:-3%;
+  width:18%;
+  position:relative;
+  left:3%;
 }
 
+.navbar-toggle{
+  margin-right:0px;
+  position:relative;
+  right:3%;
+}
 
 /*---------------------------------------
     Home section              
@@ -733,10 +738,6 @@ footer img{
     text-align: center;
   }
 
-  .navbar-header{
-    position:absolute;
-  }
-
   .navbar-collapse{
     margin-top:5em;
   }
@@ -750,13 +751,6 @@ footer img{
     padding-right: 0px;
   }
 
-  #about .resume button{
-    background-color:none;
-  }
-
-  #about .resume:hover button{
-  background-color:none;
-  }
 
   #blog-single-post .blog-post-title h2 {
     font-size: 29px;
