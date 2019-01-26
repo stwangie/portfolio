@@ -41,7 +41,7 @@ h4 {
 }
 
 p {
-    color: #777;
+    color: #555555;
     font-size: 15px;
     font-weight: 300;
     line-height: 26px;
@@ -435,7 +435,15 @@ a:hover, a:active, a:focus {
   padding-left: 14px;
 }
 
+#single-project .Project_Description{
+  color: black;
+  text-align: left
+}
 
+#single-project .pro_img{
+  display: block;
+  margin:auto;
+}
 
 /*---------------------------------------
    Contact section              
