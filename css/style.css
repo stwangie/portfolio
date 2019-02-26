@@ -41,10 +41,11 @@ h4 {
 }
 
 p {
-    color: black;
-    font-size: 16px;
+    font-family: 'Lato', sans-serif ;
+    color: #4a4a4a;
+    font-size: 17px;
     font-weight: 300;
-    line-height: 26px;
+    line-height: 1.6em;
     letter-spacing: 0.2px;
 }
 
@@ -53,7 +54,9 @@ strong {
 }
 
 li {
-  font-size:15px;
+  font-family: 'Lato', sans-serif;
+  font-size:17px;
+  font-weight: 400;
 }
 
 .btn-success:focus {
@@ -408,6 +411,8 @@ a:hover, a:active, a:focus {
 
 
 
+
+
 /*---------------------------------------
    Single Project section              
 -----------------------------------------*/
@@ -440,7 +445,6 @@ a:hover, a:active, a:focus {
 }
 
 #single-project .Project_Description{
-  color: black;
   text-align: left
 }
 
