@@ -56,9 +56,12 @@ strong {
 li {
   font-family: 'Lato', sans-serif;
   font-size:17px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
+mark{
+  background-color: #F9E8E6
+}
 .btn-success:focus {
   background-color: #000;
   border-color: transparent;
@@ -445,7 +448,8 @@ a:hover, a:active, a:focus {
 }
 
 #single-project .Project_Description{
-  text-align: left
+  text-align: left;
+  font-weight:300;
 }
 
 #single-project .pro_img{
@@ -453,6 +457,17 @@ a:hover, a:active, a:focus {
   margin:auto;
 }
 
+#single-project .grid-container{
+  display:grid;
+  grid-template-columns: 30em 40em;
+  grid-column-gap: 10em;
+}
+
+#single-project .grid-item{
+  font-size:17px;
+  text-align: left;
+  font-weight: 300px;
+}
 /*---------------------------------------
    Contact section              
 -----------------------------------------*/
