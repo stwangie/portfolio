@@ -19,7 +19,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
-    font-size: 62px;
+    font-size: 70px;
     padding-bottom: 14px;
     margin-bottom: 0px;
 }
@@ -44,7 +44,7 @@ p {
     font-family: 'Lato', sans-serif ;
     color: #4a4a4a;
     font-size: 17px;
-    font-weight: 300;
+    font-weight: 350;
     line-height: 1.6em;
     letter-spacing: 0.2px;
 }
@@ -62,6 +62,7 @@ li {
 mark{
   background-color: #FFFA92
 }
+
 .btn-success:focus {
   background-color: #000;
   border-color: transparent;
