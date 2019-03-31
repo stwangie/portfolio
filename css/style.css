@@ -482,6 +482,10 @@ a:hover, a:active, a:focus {
   clear:both;
   display:table;
 }
+
+#single-project .responsive-wrap iframe{
+  max-width: 100%;
+}
 /*---------------------------------------
    Contact section              
 -----------------------------------------*/
