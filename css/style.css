@@ -477,7 +477,7 @@ a:hover, a:active, a:focus {
   padding:5px;
 }
 
-#single-project .row::after{
+#single-project .row:after{
   content:"";
   clear:both;
   display:table;
@@ -485,6 +485,14 @@ a:hover, a:active, a:focus {
 
 #single-project .responsive-wrap iframe{
   max-width: 100%;
+}
+
+#single-project .QEESI_link a{
+  font-size: 20px
+}
+
+#single-project .QEESI_link a:hover{
+  color:#3D79F2;
 }
 /*---------------------------------------
    Contact section              
